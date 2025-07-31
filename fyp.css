@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 15px ), repeating-linear-gradient( #6a6a6a55, #6a6a6a );
+}
+
+#fypTitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:15%;
+  margin-bottom: 3%;
+
+}
+#nameTitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:15%;
+
+  margin-top: 3%;
+}
+
+
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+
+#titleDivider{
+  width: 75%;
+  height: 1px;
+  background-color: #6a6a6a;
+}
+
+section{
+    background-color: #ffffff;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 35%;
+    padding-top: 10px;
+
+}

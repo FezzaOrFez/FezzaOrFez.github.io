@@ -1,8 +1,8 @@
 body {
-  background-image:url("images/background.png");
-  background-repeat: repeat-x;
-  background-size: contain;
   margin: 0;
+  background-color: #ffffff;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 15px ), repeating-linear-gradient( #6a6a6a55, #6a6a6a );
 }
 
 #nameTitle {
@@ -10,23 +10,187 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 header {
-    border-radius: 25px 25px 0px 0px;
-    background-color: #191B47;
+    background-color: #ffffff;
     padding: 10px;
     padding-bottom: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 25px;
 }
 
+#titleDivider{
+  width: 90%;
+  height: 1px;
+  background-color: #6a6a6a;
+}
+
 section{
-    background-color: #fcfcfc;
-    margin-left: 150px;
-    margin-right: 150px;
+    background-color: #ffffff;
+    margin-left: 200px;
+    margin-right: 200px;
     padding-bottom: 35%;
     padding-top: 10px;
 
+}
+div{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#titleButtons{
+  width: 90px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  background-color: #ffffff;
+  border: #ffffff;
+  margin: auto;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  padding:3%
+}
+
+#aboutButtons{
+  width: 120px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  background-color: #ffffff;
+  border: #ffffff;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  padding:3%
+}
+
+/* icons */
+#titleButtons span{
+  color: #6a6a6a;
+  font-size: 100%;
+}
+
+#aboutButtons span{
+  color: #6a6a6a;
+  font-size: larger;
+}
+
+/* Hover Colour */
+#titleButtons:hover{
+  background-color: #e1e1e1;
+}
+
+#aboutButtons:hover{
+  background-color: #e1e1e1;
+}
+
+/* Hover Swipe */
+/* ABOUT BUTTON */
+.aboutbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.aboutbutton span:after {
+  content: ' About';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+}
+.aboutbutton:hover span {
+  padding-right: 25px;
+}
+.aboutbutton:hover span i{
+  opacity: 0;
+  transition: 0.5s;
+}
+.aboutbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* PROJECT BUTTON */
+.projectbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.projectbutton span:after {
+  content: ' Projects';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+}
+.projectbutton:hover span {
+  padding-right: 25px;
+}
+.projectbutton:hover span i{
+  opacity: 0;
+  transition: 0.5s;
+}
+.projectbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* CV BUTTON */
+.cvbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.cvbutton span:after {
+  content: ' CV';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+}
+.cvbutton:hover span {
+  padding-right: 10px;
+}
+.cvbutton:hover span i{
+  opacity: 0;
+  transition: 0.5s;
+}
+.cvbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* GIT BUTTON */
+.gitbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.gitbutton span:after {
+  content: ' Git';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+}
+.gitbutton:hover span {
+  padding-right: 10px;
+}
+.gitbutton:hover span i{
+  opacity: 0;
+  transition: 0.5s;
+}
+.gitbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#main{
+  padding-left: 4%;
+  padding-right: 4%;
 }
