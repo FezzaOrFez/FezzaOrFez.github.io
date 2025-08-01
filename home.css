@@ -3,24 +3,25 @@ body {
   background-color: #ffffff;
   opacity: 1;
   background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 15px ), repeating-linear-gradient( #6a6a6a55, #6a6a6a );
+  background-attachment:fixed;
 }
 
 #nameTitle {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 40%;
   margin-bottom: 3%;
   margin-top: 3%;
 }
 
 header {
     background-color: #ffffff;
-    padding: 10px;
-    padding-bottom: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 25px;
+    padding: 1%;
+    padding-bottom: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
 }
 
 #titleDivider{
@@ -29,44 +30,27 @@ header {
   background-color: #6a6a6a;
 }
 
-section{
-    background-color: #ffffff;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-bottom: 35%;
-    padding-top: 10px;
-
-}
 div{
   display: grid;
   grid-template-columns: auto auto auto auto;
-  gap: 20px;
+  gap: 5%;
   width: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
 #titleButtons{
-  width: 90px;
+  width: auto;
   font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
+  font-size: 100%;
   background-color: #ffffff;
   border: #ffffff;
   margin: auto;
   border-radius: 10px;
   transition-duration: 0.4s;
-  padding:3%
-}
-
-#aboutButtons{
-  width: 120px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
-  background-color: #ffffff;
-  border: #ffffff;
-  border-radius: 10px;
-  transition-duration: 0.4s;
-  padding:3%
+  padding:7%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* icons */
@@ -193,4 +177,9 @@ div{
 #main{
   padding-left: 4%;
   padding-right: 4%;
+  background-color: #ffffff;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 100%;
+  padding-top: 1%;
 }
