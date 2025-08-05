@@ -6,7 +6,7 @@ body {
   background-attachment:fixed;
 }
 
-#nameTitle {
+#projectsTitle {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,6 +39,7 @@ div{
 }
 
 #titleButtons{
+  cursor: pointer;
   width: auto;
   font-family: 'Times New Roman', Times, serif;
   font-size: 100%;
@@ -99,26 +100,26 @@ div{
 }
 
 /* PROJECT BUTTON */
-.projectbutton span {
+.homebutton span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-.projectbutton span:after {
-  content: ' Projects';
+.homebutton span:after {
+  content: ' Home';
   position: absolute;
   opacity: 0;
   top: 0;
 }
-.projectbutton:hover span {
+.homebutton:hover span {
   padding-right: 25px;
 }
-.projectbutton:hover span i{
+.homebutton:hover span i{
   opacity: 0;
   transition: 0.5s;
 }
-.projectbutton:hover span:after {
+.homebutton:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -183,3 +184,57 @@ div{
   padding-top: 1%;
 }
 
+.container {
+    cursor: pointer;
+    position: relative;
+    width: 70%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #45454598;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #e1e1e1;
+  font-size: 5vb;
+  font-weight:bold;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+}
+
+p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #45454598;
+  font-size: 5vb;
+  font-weight:bold;
+  text-align: center;
+}
