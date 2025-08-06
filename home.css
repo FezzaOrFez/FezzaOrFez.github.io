@@ -6,7 +6,8 @@ body {
   background-attachment:fixed;
 }
 
-#nameTitle {
+#Title {
+  cursor: pointer;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -41,7 +42,6 @@ div{
 #titleButtons{
   width: auto;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 100%;
   background-color: #ffffff;
   border: #ffffff;
   margin: auto;
@@ -55,13 +55,10 @@ div{
 /* icons */
 #titleButtons span{
   color: #6a6a6a;
-  font-size: 100%;
+  font-size: 3vh;
 }
 
-#aboutButtons span{
-  color: #6a6a6a;
-  font-size: larger;
-}
+
 
 /* Hover Colour */
 #titleButtons:hover{
@@ -112,6 +109,7 @@ div{
   top: 0;
 }
 .projectbutton:hover span {
+  
   padding-right: 25px;
 }
 .projectbutton:hover span i{
@@ -179,7 +177,9 @@ div{
   background-color: #ffffff;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 100%;
+  padding-bottom: auto;
   padding-top: 1%;
+  margin-bottom: 5%;
+
 }
 

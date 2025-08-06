@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
     <title>Jay Ferrier Project Portfolio</title>
     <meta name="author" content="Jay Ferrier">
     <meta name="keywords" content="Software, Project, Portfolio">
@@ -16,21 +16,98 @@
 </head>
 <body>
     <header>
-        <img src="images/aboutmeTitle.png" alt="About Me" id="aboutmeTitle">
+        <img src="images/aboutmeTitle.png" alt="about" id="Title" onclick="document.location='index.html'">
         <hr id="titleDivider">
-        <div>
+        <div id="buttongrid">
             <button id="titleButtons" class="projectbutton" onclick="document.location='projects.html'"><span><i class="fa fa-code"></i></span></button>
             <button id="titleButtons" class="aboutbutton" onclick="document.location='about.html'"><span><i class="fa fa-street-view"></i></span></button>
             <button id="titleButtons" class="cvbutton" onclick="document.location='Jay Ferrier CV.pdf'"><span><i class="fa fa-file"></i></span></button>
-            <button id="titleButtons" class="gitbutton" onclick="document.location='https://github.com/FezzaOrFez'"><span><i class="fa fa-server"></i></span></button>
+            <button id="titleButtons" class="gitbutton" onclick="document.location='https://github.com/FezzaOrFez'"><span><i class="fab fa-github"></i></span></button>
         </div>
         <hr id="titleDivider">
     </header>
     <section id="main">
-        <p id="demo">I'm hosted with GitHub Pages.</p>
-        <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+        <!-- image of me -->
+        <!-- about me -->
+        <!-- contact info -->
+        <div id="aboutInfo">
+            <h2>About Jay Ferrier</h2>
+            <p><img src="images/eternalcosmos.jpg" alt="Jay Ferrier" id="personalImage">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
 
-    </section>
+Cras sed tellus eget lorem dapibus suscipit eu ac dolor. Phasellus at finibus nulla, et iaculis urna. Nam mollis tristique neque, a maximus ipsum lobortis sit amet. Vivamus vestibulum commodo elit id commodo. Vivamus malesuada venenatis nisl, et semper tellus gravida vel. Vestibulum lacinia ac ligula quis laoreet. Donec maximus ultrices tellus, sed vulputate neque eleifend non. Suspendisse at vestibulum justo, quis vulputate ipsum.
+
+Nunc et cursus urna. Duis cursus semper mi ut feugiat. Donec ut pharetra mauris, id tristique urna. Vivamus facilisis luctus fermentum. Donec justo risus, venenatis id elit eget, placerat commodo leo. Mauris eleifend lorem sit amet cursus porttitor. Aliquam quis diam nec ante facilisis posuere fermentum ut massa.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent efficitur libero eget odio semper, vitae cursus orci mollis. Etiam vel ipsum in elit ultrices gravida. Donec tincidunt lorem ac mauris posuere, et efficitur sem gravida. Pellentesque interdum dapibus tristique. Integer eu mauris eget augue posuere vehicula vel vitae odio. Nam ultrices libero ut erat porttitor facilisis. Morbi suscipit elit tortor. Vivamus diam arcu, efficitur at nulla nec, lobortis pulvinar quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris faucibus bibendum venenatis. Sed varius, lacus ut ornare tincidunt, odio quam porta risus, ac venenatis eros enim vel quam. Vivamus nec nulla nec lacus consequat feugiat vel ut massa. Duis justo arcu, auctor in diam nec, tristique facilisis dui. Nulla aliquet consectetur est sit amet blandit. In gravida nisl eu lorem tincidunt, sed ornare nisi consequat.
+
+Etiam sed blandit urna. Aenean ultrices orci vulputate purus gravida, at dapibus dolor convallis. Vestibulum fermentum hendrerit lobortis. Aenean consectetur commodo erat, at hendrerit felis bibendum at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi suscipit auctor diam. Proin feugiat neque in finibus fringilla. Sed imperdiet purus tempor dignissim ullamcorper. Aenean placerat, mi posuere convallis pretium, tellus augue feugiat erat, non accumsan turpis magna vel libero. Sed finibus ac nisi non dapibus. Nulla viverra sed magna vel facilisis. Aliquam accumsan eu lorem at lacinia. Mauris ut vulputate lorem. Donec eu elit vel dui dignissim eleifend. Maecenas eu efficitur nisl, et hendrerit orci. Suspendisse gravida semper enim, in malesuada ipsum cursus eget.</p>
+        </div>
+        
+    <!-- education + skills -->
+    <div id="aboutInfo">
+        <h2>Education and Skills</h2>
+        <p><img src="images/graduate.jpg" alt="Jay Ferrier" id="gradImage" style="float: right;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+
+Cras sed tellus eget lorem dapibus suscipit eu ac dolor. Phasellus at finibus nulla, et iaculis urna. Nam mollis tristique neque, a maximus ipsum lobortis sit amet. Vivamus vestibulum commodo elit id commodo. Vivamus malesuada venenatis nisl, et semper tellus gravida vel. Vestibulum lacinia ac ligula quis laoreet. Donec maximus ultrices tellus, sed vulputate neque eleifend non. Suspendisse at vestibulum justo, quis vulputate ipsum.
+
+Nunc et cursus urna. Duis cursus semper mi ut feugiat. Donec ut pharetra mauris, id tristique urna. Vivamus facilisis luctus fermentum. Donec justo risus, venenatis id elit eget, placerat commodo leo. Mauris eleifend lorem sit amet cursus porttitor. Aliquam quis diam nec ante facilisis posuere fermentum ut massa.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent efficitur libero eget odio semper, vitae cursus orci mollis. Etiam vel ipsum in elit ultrices gravida. Donec tincidunt lorem ac mauris posuere, et efficitur sem gravida. Pellentesque interdum dapibus tristique. Integer eu mauris eget augue posuere vehicula vel vitae odio. Nam ultrices libero ut erat porttitor facilisis. Morbi suscipit elit tortor. Vivamus diam arcu, efficitur at nulla nec, lobortis pulvinar quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris faucibus bibendum venenatis. Sed varius, lacus ut ornare tincidunt, odio quam porta risus, ac venenatis eros enim vel quam. Vivamus nec nulla nec lacus consequat feugiat vel ut massa. Duis justo arcu, auctor in diam nec, tristique facilisis dui. Nulla aliquet consectetur est sit amet blandit. In gravida nisl eu lorem tincidunt, sed ornare nisi consequat.
+
+Etiam sed blandit urna. Aenean ultrices orci vulputate purus gravida, at dapibus dolor convallis. Vestibulum fermentum hendrerit lobortis. Aenean consectetur commodo erat, at hendrerit felis bibendum at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi suscipit auctor diam. Proin feugiat neque in finibus fringilla. Sed imperdiet purus tempor dignissim ullamcorper. Aenean placerat, mi posuere convallis pretium, tellus augue feugiat erat, non accumsan turpis magna vel libero. Sed finibus ac nisi non dapibus. Nulla viverra sed magna vel facilisis. Aliquam accumsan eu lorem at lacinia. Mauris ut vulputate lorem. Donec eu elit vel dui dignissim eleifend. Maecenas eu efficitur nisl, et hendrerit orci. Suspendisse gravida semper enim, in malesuada ipsum cursus eget.</p>
+    </div>
+    <!-- interests -->
+    <div id="aboutInfo">
+        <h2>Interests</h2>
+        <div class="interestText">
+        <p>
+            Computer Science and Technology<br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </div>
+        <div class="interestText">
+            <img src="images/arcade.jpg" alt="Jay Ferrier" id="arcadeImage">
+            <h3 class="interestsTitlesLeft">Video Games</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+        <div class="interestText">
+            <img src="images/mercedes-f1.jpg" alt="Jay Ferrier" id="mercImage">
+            <h3 class="interestsTitlesRight">Formula 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+        <div class="interestText">
+            <img src="images/snowboard.jpg" alt="Jay Ferrier" id="snowImage">
+            <h3 class="interestsTitlesLeft">Snowsports</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+        <div class="interestText">
+            <img src="images/powerlifting.jpg" alt="Jay Ferrier" id="powerliftImage">
+            <h3 class="interestsTitlesRight">Powerlifting</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+        <div class="interestText">
+            <img src="images/guitar.jpg" alt="Jay Ferrier" id="guitarImage">
+            <h3 class="interestsTitlesLeft">Guitar and Music</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+    </div>
+    <!-- contact info -->
+    <div id="aboutInfo">
+        <h2>Contact Information</h2>
+        <p>Email Address: fezza_j@btinternet.com<br>
+           Phone Number: 07484 708895<br>
+        </p>
+        <a href="https://www.linkedin.com/in/jay-ferrier-5b5605278/" class="linked"><i class="fab fa-linkedin"></i></a>
+
+
+    </div>
+</section>
 </body>
 
 </html>

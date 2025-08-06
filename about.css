@@ -30,7 +30,7 @@ header {
   background-color: #6a6a6a;
 }
 
-div{
+#buttongrid{
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 5%;
@@ -40,7 +40,6 @@ div{
 }
 
 #titleButtons{
-  cursor: pointer;
   width: auto;
   font-family: 'Times New Roman', Times, serif;
   background-color: #ffffff;
@@ -110,6 +109,7 @@ div{
   top: 0;
 }
 .projectbutton:hover span {
+  
   padding-right: 25px;
 }
 .projectbutton:hover span i{
@@ -180,62 +180,118 @@ div{
   padding-bottom: auto;
   padding-top: 1%;
   margin-bottom: 5%;
-
 }
 
-.container {
-    cursor: pointer;
-    position: relative;
-    width: 70%;
-    display:flex;
-    justify-content: center;
-    margin-bottom: 5%;
-    border-style: solid;
-    border-width: 50%;
+#personalImage{
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 2%;
 }
 
-.image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+#gradImage{
+  width: 40%;
+  float: right;
+  margin-left: 5%;
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #45454598;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+#arcadeImage{
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 2%;
 }
 
-.container:hover .overlay {
-  height: 100%;
+#mercImage{
+  width: 50%;
+  float: right;
+  margin-left: 5%;
+  margin-bottom: 2%;
 }
 
-.text {
-  white-space: nowrap; 
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #e1e1e1;
-  font-size: 5vb;
-  font-weight:bold;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  
+#snowImage{
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+#powerliftImage{
+  width: 50%;
+  float: right;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+#guitarImage{
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 2%;
 }
 
 p{
+  font-size: 1em;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #45454598;
-  font-size: 5vb;
-  font-weight:bold;
+}
+
+#aboutInfo{
+  border-style: solid;
+  border-width: 1%;
+  border-color: #6a6a6a;
+  display:inline-block;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-left: auto;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 95%;
+  height: auto;
+}
+
+h2{
+  text-align: center;
+  font-size: 2em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #6a6a6a;
+  text-decoration: underline;
+}
+
+.linked{
+  background-color: #6a6a6a;
+  color: white;
+  padding: 2.5% 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vw;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-bottom: 3%;
+}
+
+.interestText{
+  display: inline-block;
+}
+
+.interestsTitlesLeft{
+  font-size: 1em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-style: solid;
+  border-color: #6a6a6a;
+  border-width: 0.2em;
+  padding: 3%;
+  margin-left: 50%;
+  text-align: center;
+}
+
+.interestsTitlesRight{
+  font-size: 1em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-style: solid;
+  border-color: #6a6a6a;
+  border-width: 0.2em;
+  padding: 3%;
+  margin-right: 55%;
   text-align: center;
 }
