@@ -30,7 +30,7 @@ header {
   background-color: #6a6a6a;
 }
 
-div{
+#buttongrid{
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 5%;
@@ -40,7 +40,6 @@ div{
 }
 
 #titleButtons{
-  cursor: pointer;
   width: auto;
   font-family: 'Times New Roman', Times, serif;
   background-color: #ffffff;
@@ -58,8 +57,6 @@ div{
   color: #6a6a6a;
   font-size: 3vh;
 }
-
-
 
 /* Hover Colour */
 #titleButtons:hover{
@@ -110,6 +107,7 @@ div{
   top: 0;
 }
 .projectbutton:hover span {
+  
   padding-right: 25px;
 }
 .projectbutton:hover span i{
@@ -186,19 +184,27 @@ div{
 .container {
     cursor: pointer;
     position: relative;
-    width: 70%;
+    width: 80%;
+    height: auto;
     display:flex;
     justify-content: center;
     margin-bottom: 5%;
     border-style: solid;
+    border-color: #6a6a6a;
     border-width: 50%;
-}
-
-.image {
-    display: block;
+    z-index: 2;
+    transition: .5s ease;
     margin-left: auto;
     margin-right: auto;
+    background-color: aqua;
+    padding: 0;
+}
+
+
+.image {
+    display:block;
     width: 100%;
+    object-fit: cover;
 }
 
 .overlay {
@@ -232,10 +238,45 @@ div{
   
 }
 
-p{
+.more{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #45454598;
   font-size: 5vb;
   font-weight:bold;
   text-align: center;
 }
+
+.dropdown {
+  position:absolute;
+  background-color: #ffffff;
+  z-index: 0;
+  top: 0%;
+  transition: .4s ease-in-out;
+  border-style: solid;
+  border-color: #6a6a6a;
+  opacity: 0%;
+}
+
+.container:focus .dropdown {
+  top: 100%;
+  opacity: 100%;
+}
+
+.dropdownText{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #6a6a6a;
+  font-size: 2vb;
+  font-weight:bold;
+  padding-left: 5%;
+  transition: .7s ease,;
+  text-align: left;
+}
+
+.container:focus .dropdownText{
+  opacity: 100%;
+}
+
+.container:focus{
+  margin-bottom: 42vh;
+}
+

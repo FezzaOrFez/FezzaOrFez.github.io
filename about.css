@@ -58,8 +58,6 @@ header {
   font-size: 3vh;
 }
 
-
-
 /* Hover Colour */
 #titleButtons:hover{
   background-color: #e1e1e1;
@@ -283,6 +281,7 @@ h2{
   padding: 3%;
   margin-left: 50%;
   text-align: center;
+  
 }
 
 .interestsTitlesRight{
@@ -294,4 +293,5 @@ h2{
   padding: 3%;
   margin-right: 55%;
   text-align: center;
+  width: auto;
 }
