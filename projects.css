@@ -202,9 +202,9 @@ header {
 
 
 .image {
-    display:block;
+    display:flex;
     width: 100%;
-    object-fit: cover;
+    height: auto;
 }
 
 .overlay {
@@ -220,6 +220,10 @@ header {
 }
 
 .container:hover .overlay {
+  height: 100%;
+}
+
+.container:focus .overlay {
   height: 100%;
 }
 
@@ -277,6 +281,6 @@ header {
 }
 
 .container:focus{
-  margin-bottom: 42vh;
+  margin-bottom: 30vh;
 }
 
