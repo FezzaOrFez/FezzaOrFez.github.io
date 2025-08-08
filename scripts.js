@@ -4,10 +4,12 @@ function openProject(id) {
         document.getElementById(id+"Dropdown").style.top = 100+"%";
         document.getElementById(id+"Dropdown").style.opacity = 100+"%";
         var height = document.getElementById(id+"Dropdown").clientHeight
-        height = height + (height*0.2)
+        height = height + (20)
         document.getElementById(id+"Container").style.marginBottom = height + "px";
         document.getElementById(id+"Overlay").style.height = 100+"%";
+
     } else{
+        document.getElementById(id+"Dropdown").style.transition = "top .4s ease-in-out, opacity 1s ease";
         document.getElementById(id+"Dropdown").style.top = 0+"%";
         document.getElementById(id+"Dropdown").style.opacity = 0+"%";
         document.getElementById(id+"Container").style.marginBottom = 5+"%";
