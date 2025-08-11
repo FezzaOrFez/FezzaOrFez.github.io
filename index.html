@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
     <title>Jay Ferrier Project Portfolio</title>
     <meta name="author" content="Jay Ferrier">
     <meta name="keywords" content="Software, Project, Portfolio">
@@ -16,21 +16,250 @@
 </head>
 <body>
     <header>
-        <img src="images/nameTitle.png" alt="name" id="Title" onclick="document.location='index.html'">
+        <img src="images/nameTitle.png" alt="Jay Ferrier" id="Title" onclick="document.location='index.html'">
         <hr id="titleDivider">
-        <div>
+        <div id="buttongrid">
             <button id="titleButtons" class="projectbutton" onclick="document.location='projects.html'"><span><i class="fa fa-code"></i></span></button>
-            <button id="titleButtons" class="aboutbutton" onclick="document.location='about.html'"><span><i class="fa fa-street-view"></i></span></button>
+            <button id="titleButtons" class="aboutbutton" onclick="document.location='index.html'"><span><i class="fa fa-street-view"></i></span></button>
             <button id="titleButtons" class="cvbutton" onclick="document.location='Jay Ferrier CV.pdf'"><span><i class="fa fa-file"></i></span></button>
-            <button id="titleButtons" class="gitbutton" onclick="document.location='https://github.com/FezzaOrFez'"><span><i class="fa fa-server"></i></span></button>
+            <button id="titleButtons" class="gitbutton" onclick="document.location='https://github.com/FezzaOrFez'"><span><i class="fab fa-github"></i></span></button>
         </div>
         <hr id="titleDivider">
     </header>
     <section id="main">
-        <p id="demo">I'm hosted with GitHub Pages.</p>
-        <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+        <!-- image of me -->
+        <!-- about me -->
+        <!-- contact info -->
+        <div id="aboutInfo">
+            <img src="images/aboutmeTitle.png" alt="about" id="aboutMe">
+            <p><img src="images/eternalcosmos.jpg" alt="Jay Ferrier" id="personalImage">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
 
-    </section>
+Cras sed tellus eget lorem dapibus suscipit eu ac dolor. Phasellus at finibus nulla, et iaculis urna. Nam mollis tristique neque, a maximus ipsum lobortis sit amet. Vivamus vestibulum commodo elit id commodo. Vivamus malesuada venenatis nisl, et semper tellus gravida vel. Vestibulum lacinia ac ligula quis laoreet. Donec maximus ultrices tellus, sed vulputate neque eleifend non. Suspendisse at vestibulum justo, quis vulputate ipsum.
+
+Nunc et cursus urna. Duis cursus semper mi ut feugiat. Donec ut pharetra mauris, id tristique urna. Vivamus facilisis luctus fermentum. Donec justo risus, venenatis id elit eget, placerat commodo leo. Mauris eleifend lorem sit amet cursus porttitor. Aliquam quis diam nec ante facilisis posuere fermentum ut massa.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent efficitur libero eget odio semper, vitae cursus orci mollis. Etiam vel ipsum in elit ultrices gravida. Donec tincidunt lorem ac mauris posuere, et efficitur sem gravida. Pellentesque interdum dapibus tristique. Integer eu mauris eget augue posuere vehicula vel vitae odio. Nam ultrices libero ut erat porttitor facilisis. Morbi suscipit elit tortor. Vivamus diam arcu, efficitur at nulla nec, lobortis pulvinar quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris faucibus bibendum venenatis. Sed varius, lacus ut ornare tincidunt, odio quam porta risus, ac venenatis eros enim vel quam. Vivamus nec nulla nec lacus consequat feugiat vel ut massa. Duis justo arcu, auctor in diam nec, tristique facilisis dui. Nulla aliquet consectetur est sit amet blandit. In gravida nisl eu lorem tincidunt, sed ornare nisi consequat.
+
+Etiam sed blandit urna. Aenean ultrices orci vulputate purus gravida, at dapibus dolor convallis. Vestibulum fermentum hendrerit lobortis. Aenean consectetur commodo erat, at hendrerit felis bibendum at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi suscipit auctor diam. Proin feugiat neque in finibus fringilla. Sed imperdiet purus tempor dignissim ullamcorper. Aenean placerat, mi posuere convallis pretium, tellus augue feugiat erat, non accumsan turpis magna vel libero. Sed finibus ac nisi non dapibus. Nulla viverra sed magna vel facilisis. Aliquam accumsan eu lorem at lacinia. Mauris ut vulputate lorem. Donec eu elit vel dui dignissim eleifend. Maecenas eu efficitur nisl, et hendrerit orci. Suspendisse gravida semper enim, in malesuada ipsum cursus eget.</p>
+        </div>
+        
+    <!-- education + skills -->
+    <div id="aboutInfo">
+        <h2>Education</h2>
+        <div class="schools">
+            <hr id="titleDivider">
+            <img src="images/graduate.jpg" alt="Jay Ferrier" id="gradImage" style="float: right;">
+            <h4 class="subTitle"><img src="images/Nottingham_Trent_University_shield_logo.png" alt="NTU" id="ntuShield" style="float: left">Nottingham Trent<br>University<br></h4>
+            <h3 id="eduTitle">Computer Science Bsc(Hons) - 2022-2025</h3>
+            <p>Award:<br>2nd Class Honours-1st Division (High)<br><br>
+                Relevant Courses:<br><br>
+                o	Information and Database Engineering (High 1st)<br>
+                o	Final Year Project (Low 1st)<br>
+                o	Advanced Software Engineering (Low 1st)<br>
+                o	Systems Software (Low 1st)<br>
+                o	Advanced Analysis and Design (High 2.1)<br>
+                o	Advanced Artificial Intelligence (High 2.1)<br>
+                o	Software Design and Implementation (Mid 2.1)<br>
+                o	Service-Centric & Cloud Computing (Mid 2.1)<br><br>
+            </p>
+            <hr id="titleDivider">
+        </div>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="subTitle"><img src="images/invictus.png" alt="Invictus" id="invictusShield" style="float: left">Invictus<br>Sixth Form<br></h4>
+            <h3 id="eduTitle">2020-2022</h3>
+            <p>
+                o	A Levels Computer Science<br>
+                o	A Levels Business Studies<br>
+                o	A Levels Maths<br>
+            </p>
+            <hr id="titleDivider">
+        </div>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="subTitle">GCSE</h4>
+            <h3 id="eduTitle">2020-2022</h3>
+            <p>
+                o	GCSE Maths<br>
+                o	GCSE English<br>
+                o	GCSE Computer Science<br>
+            </p>
+            <p style="font-size: 0.75em;">(Computer Science was completed outside of school in my own time and at my own cost due to course removal)</p>
+            <hr id="titleDivider">
+        </div>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="subTitle">Extra Qualifications</h4>
+            <p>
+                o	Valid Drivers Licence</br>
+                o	OCR Level 2 Diploma in IT User Skills (ITQ) <br> 
+            </p>
+            <hr id="titleDivider">
+        </div>
+
+        
+
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="subTitle">Skills</h4>
+            <p>
+                o	Valid Drivers Licence</br>
+                o	OCR Level 2 Diploma in IT User Skills (ITQ) <br> 
+            </p>
+            <hr id="titleDivider">
+        </div>
+    </div>
+
+    <div id="aboutInfo">
+        <h2>Skills</h2>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="skillTitle">Programming Languages</h4>
+            <p>
+                o	Java<br>
+                o	Python<br>
+                o	C++ and C#<br>
+                o	HTML, CSS, and Javascript<br>
+                o	Haskell<br>
+                o	SQL<br>
+                o	Dart<br><br>
+            </p>
+            <hr id="titleDivider">
+        </div>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="skillTitle">Experience With:</h4>
+            <p>
+                o	Object Orientated Programming and APIs<br>
+                o	Docker, Cloud technologies, and Nodejs<br>
+                o	Databases, MariaDB, and MySQL<br>
+                o	Git and Version Control<br>
+                o	Visual Studio, Visual Studio Code, and Android Studio<br><br>
+            </p>
+            <hr id="titleDivider">
+        </div>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="skillTitle">Transferable Skills</h4>
+            <p>
+                o	Paired Programming from ClockIn Joint Personal Project<br><br>
+                o	Teamwork from working in a kitchen with other members of staff to ensure good customer service.<br><br>
+                o	Experience of working under pressure in a busy kitchen environment.<br><br>
+                o	Colleague communication skills from working in a kitchen environment with a restaurant team.<br><br>
+                o	Client communication skills from contact with garden maintenance jobs.<br><br>
+                o	Excellent work ethic from working within a busy restaurant environment.<br><br>
+                o	Teamwork skills from various group courseworks including the development of a mobile application for smart fridges<br><br>
+
+            </p>
+            <hr id="titleDivider">
+        </div>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="skillTitle">Extra Skills</h4>
+            <p>
+                o	Valid drivers licence and own transport<br>
+                o	First Aid Skills from Lifeguarding Certification<br>
+                o	Multiple successful leadership experiences from university group coursework.<br><br>
+            </p>
+            <hr id="titleDivider">
+        </div>
+    </div>
+
+    <div id="aboutInfo">
+        <h2>Work Experience</h2>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="subTitle">Simworx ltd | Work Experience</h4>
+            <h4 class="subTitle" style="font-size: 0.8em;text-align: right;">2019</h4>
+            <p><br>
+                o	Week of work experience in motion simulation technology<br>
+                o	Safety in the technology and engineering industry<br>
+                o	Marketing and photo editing<br>
+                o	Software and Hardware Engineering<br><br>
+
+            </p>
+            <hr id="titleDivider">
+        </div>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="subTitle">Round Oak | Kitchen Staff</h4>
+            <h4 class="subTitle" style="font-size: 0.8em;text-align: right;">Aug 2019 to Aug 2022</h4>
+
+            <p><br>
+                •	For the first two years:<br>
+                o	Washing up plates, cutlery, etc.<br>
+                o	Helping chef staff by moving stock, processing stock ,etc.<br>
+                o	Help with food preparation.<br>
+                o	Cleaning <br><br>
+                •	For the third year:<br>
+                o	Promotion from pot washer to chef.<br>
+                o	Chef work, such as cooking food and setting up plates to be sent to customers.<br>
+                o	Cleaning<br><br>
+            </p>
+            <hr id="titleDivider">
+        </div>
+        <div class="schools">
+            <hr id="titleDivider">
+            <h4 class="subTitle">Garden Maintenance Labourer</h4>
+            <h4 class="subTitle" style="font-size: 0.8em;text-align: right;">June 2023 to August 2023<br>May 2024 to September 2024</h4>
+            <p><br>
+                o	Slab laying, Jet washing, Digging, Lawn mowing, Landscaping, Painting<br><br>
+                o	Communication with clients to ensure correct specifications of work and friendly relations.<br><br>
+            </p>
+            <hr id="titleDivider">
+        </div>
+    </div>
+
+    <!-- interests -->
+    <div id="aboutInfo">
+        <h2>Interests</h2>
+        <div class="interestText">
+            <h3 class="interestsTitlesRight">Computer Science and Technology</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        <div class="interestText">
+            <img src="images/arcade.jpg" alt="Jay Ferrier" id="arcadeImage">
+            <h3 class="interestsTitlesLeft">Video Games</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+        <div class="interestText">
+            <img src="images/mercedes-f1.jpg" alt="Jay Ferrier" id="mercImage">
+            <h3 class="interestsTitlesRight">Formula 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+        <div class="interestText">
+            <img src="images/snowboard.jpg" alt="Jay Ferrier" id="snowImage">
+            <h3 class="interestsTitlesLeft">Snowsports</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+        <div class="interestText">
+            <img src="images/powerlifting.jpg" alt="Jay Ferrier" id="powerliftImage">
+            <h3 class="interestsTitlesRight">Powerlifting</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+        <div class="interestText">
+            <img src="images/guitar.jpg" alt="Jay Ferrier" id="guitarImage">
+            <h3 class="interestsTitlesLeft">Guitar and Music</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.
+        </p>
+        </div>
+    </div>
+    <!-- contact info -->
+    <div id="aboutInfo">
+        <h2>Contact Information</h2>
+        <p>Email Address: fezza_j@btinternet.com<br>
+           Phone Number: 07484 708895<br>
+        </p>
+        <a href="https://www.linkedin.com/in/jay-ferrier-5b5605278/" class="linked"><i class="fab fa-linkedin"></i></a>
+
+
+    </div>
+</section>
 </body>
 
 </html>
