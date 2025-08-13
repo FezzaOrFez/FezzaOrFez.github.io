@@ -366,3 +366,27 @@ h2{
     padding-right: 5%;
 
 }
+
+#library{
+  display: grid;
+  grid-template-columns:auto auto auto auto auto auto;
+  gap: 1%;
+  border-style: solid;
+  border-width: 1vw;
+  border-color: #5a2d03;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: auto;
+  margin-bottom: 5%;
+  width: auto;
+  height: auto;
+  
+  background-image: url("images/books/wood.jpg");
+}
+
+.book{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  align-self: end;
+}
