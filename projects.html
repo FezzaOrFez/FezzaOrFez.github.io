@@ -11,7 +11,7 @@
     <meta http-equiv='cache-control' content='no-cache'> 
     <meta http-equiv='expires' content='0'> 
     <meta http-equiv='pragma' content='no-cache'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.0/css/all.css" integrity="20C50430-5272-4B0F-BA39-DD41071AC21A" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="/images/jay ferrier logo.ico">
 </head>
 <body>
@@ -29,7 +29,32 @@
     <section id="main">
         <button class="container" onclick="openProject('vc')" id="vcContainer">
             <div class="dropdown" id="vcDropdown">
-                <p class="dropdownText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.</p>
+                <p class="dropdownText">
+                    Virtual Coach: An Application for Sports Coaching was my Final Year Project in my third year of my 
+                    Computer Science Degree at Nottingham Trent University. I achieved a 1 Low grade overall in this project.
+                    The work in this report aimed at guiding users into new sports and teaching them how to correctly 
+                    perform techniques and exercises that make up each exercise through Artificial Intelligence.
+                    This work primarily aimed to teach users the sport of Powerlifting and some of the main techniques 
+                    found in the sport – Deadlift and Squat. <br><br>
+                    This work used the Artificial Intelligence technique Human Pose Estimation from OpenCV to analyse 
+                    and predict the basic skeleton from a user’s video. The data from the Human Pose Estimation was 
+                    compared against a set of reference frames of a ‘perfect’ technique example and provided feedback 
+                    based on the percentage difference between the reference frames and user frames. <br><br>
+                    <img src="images/projectsImages/feedback.png" alt="feedback" class="projectImage"><br>
+                    The system also provides a History Storage system to allow the user to see previous technique practices 
+                    from stored encrypted data. The system also includes a personalisation system in the background that allows 
+                    users to add their own sports and techniques and add or change reference frames. <br><br>
+                    The Feedback system also stores data in Json Files that allow the user to change the sport and technique 
+                    description for notation or new sports, as well as add or change the Areas of Feedback used in the Feedback process.<br><br>
+                    <img src="images/projectsImages/history.png" alt="history/json" class="projectImage"><br>
+                    Overall, the system showed that Human Pose Estimation was a viable example of comparing Human 
+                    forms in sports and technique and could be a useful tool in helping to introduce users into new 
+                    sports and to improve their form to prevent injuries or improve progress in the sports. <br><br>
+                    While the system provides a useful solution to the problem for the scope of this project, 
+                    improvements are needed to prevent potential errors in the personalisation or to improve the 
+                    accuracy of the feedback through camera angle correction and point analysis methods.
+
+                </p>
             </div>
             <img src="images/fypindicator.png" alt="fypindicator" class="image">
             <div class="overlay" id="vcOverlay">
@@ -39,7 +64,23 @@
 
         <button class="container" onclick="openProject('mh')" id="mhContainer">
             <div class="dropdown" id="mhDropdown">
-                <p class="dropdownText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.</p>
+                <p class="dropdownText">
+                    Musical Hands was a personal project after finishing university that continued the subject of my Final Year Project
+                    in Human Pose Estimation with Hand Pose Estimation instead. The application aimed to use Hand Pose Estimation to find
+                    the skeleton of the user's hands to control music through Spotify's API control system. For the development of the system,
+                    only my Spotify account was useable due to Spotify's Developer API restricting this.<br><br>
+                    The system used different hand gestures to control the music. These included:<br><br>
+                    <i class="fa fa-hand"></i> for play<br>
+                    <i class="fa fa-hand-fist"></i> for pause<br>
+                    <i class="fa fa-hand-point-up"></i> for skip current song<br>
+                    <i class="fa fa-hand-peace"></i> for previous song<br>
+                    Pinky and Index finger up to activate the system (to prevent accidental commands)<br>
+                    <i class="fa fa-hands-praying"></i> for changing the volume where the normalized distance between the
+                        user's index fingers/hand was the percentage of volume<br><br>
+                    The volume system uses the distance between the fingers and outputs this to the user
+                    so that they can easily regulate the volume. This only changes after a few seconds to reduce the lag
+                    of continously sending to the API (the api also locks out for a short period if there are too many requests.)
+                </p>
             </div>
             <img src="images/musicalHands.png" alt="musicalindicator" class="image">
             <div class="overlay" id="mhOverlay">
@@ -47,25 +88,47 @@
             </div>
         </button>
 
-        <button class="container" onclick="openProject('ci')" id="ciContainer">
-            <div class="dropdown" id="ciDropdown">
-                <p class="dropdownText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.</p>
-            </div>
-            <img src="images/Clockin Logo.png" alt="ClockinIndicator" class="image">
-            <div class="overlay" id="ciOverlay">
-                <div class="text">ClockIn</div>
-            </div>
-        </button>
-
         <button class="container"onclick="openProject('sf')" id="sfContainer">
             <div class="dropdown" id="sfDropdown">
-                <p class="dropdownText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et laoreet nisi. Duis ac leo elementum, maximus augue sit amet, convallis urna. Ut tincidunt dignissim tincidunt. Etiam varius elit felis, eget eleifend magna elementum sed. Curabitur dapibus non lacus quis suscipit. Duis ultrices turpis sed justo tristique tristique. Donec quis sem et eros egestas pharetra. Donec mattis hendrerit imperdiet. Nullam congue augue et nisl ultrices laoreet. Nulla facilisi. Donec laoreet quis ligula vitae pharetra. Praesent id ornare libero, in lobortis nibh. Aenean vehicula, augue vel elementum mollis, odio ex luctus nulla, non sagittis quam ipsum eu nisl. Nulla a neque ac massa lobortis iaculis accumsan nec neque.</p>
+                <p class="dropdownText">
+                    During my final year at Nottingham Trent University, part of my course involved a group project. The project focused on working as 
+                    a start-up group of computer scientists that had been employed by a 'client' to produce an application/software for a theoretical smart fridge
+                    that was being installed in different restaurants. The smart fridge had a system that allowed a delivery driver to place ordered
+                    items in one side of the fridge, and for chefs to take out items on the other side of the fridge.<br><br>
+                    While the smart fridge itself was only theoretical, the tutor of the coursework acted as the client and allowed us to perform interviews to gain requirements
+                    for the application and the application could work as a standalone app as well without the fridge.
+                    I was the leader of this project for my group of 7 colleagues and had to sort out meeting and the workload for each team member. Alongside this I also acted as
+                    primary tester and part of the software developer team.<br><br>
+                    For the chefs, they could register and login to the app to view what was in the fridge at this current time and the amounts of each item. They could also see the expiration date
+                    and input date for each item with warning popups/notifications for when an item had passed its expiration date or when certain items were running low.
+                    This could then be used to add items to an order to be sent to a supplier.<br><br>
+                    The delivery drivers could then bring the items specified in the order to the supplier. They could login to the app and see different orders with addresses and required items.
+                    When they reached the restaurant they could input a code provided by a notification to securely activate the fridge for a limited time to input the items.
+                </p>
             </div>
             <img src="images/softwarerus.jpg" alt="rusindicator" class="image">
             <div class="overlay" id="sfOverlay">
                 <div class="text">Smart Fridge</div>
             </div>
         </button>
+
+        <button class="container" onclick="openProject('ci')" id="ciContainer">
+            <div class="dropdown" id="ciDropdown">
+                <p class="dropdownText">
+                    Clockin in a current joint project with paired programming with a friend. The idea came from our time working at our local pub as potwashers
+                    and eventually chefs in the kitchen. The application allows different restaurants' and businesses' employees to track their shifts, 
+                    clock in and out of their shifts, see announcements from the managers/owner, and create different requests such as time off, switch shifts, and request shifts.
+                    The admin/owner can assign shifts and confirm or deny different requests from their employees.<br><br>
+                    The system is currently in progress to completing its first version, with many ideas for new additions and updates later on. 
+                </p>
+            </div>
+            <img src="images/Clockin Logo.png" alt="ClockinIndicator" class="image">
+            <div class="overlay" id="ciOverlay">
+                <div class="text">ClockIn</div>
+                <div class="text" style="font-size: 3vb; top: 25%;">CURRENT PROJECT</div>
+            </div>
+        </button>
+
         <p class="more" style="padding-bottom: 10%;">More to Come...</p>
     </section>
     <script src="scripts.js"></script>
