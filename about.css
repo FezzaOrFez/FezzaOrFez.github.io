@@ -262,7 +262,7 @@ p{
 
 h2{
   text-align: center;
-  font-size: 2em;
+  font-size: 6vb;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #6a6a6a;
   text-decoration: underline;
@@ -286,7 +286,7 @@ h2{
 }
 
 .interestsTitlesLeft{
-  font-size: auto;
+  font-size: 3vb;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border-style: solid;
   border-color: #6a6a6a;
@@ -297,7 +297,7 @@ h2{
 }
 
 .interestsTitlesRight{
-  font-size: auto;
+  font-size: 3vb;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   border-style: solid;
   border-color: #6a6a6a;
@@ -309,13 +309,13 @@ h2{
 }
 
 .subTitle{
-  font-size: 1rem;
+  font-size: 3vb;
   padding-left: 5%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #6a6a6a;
 }
 .skillTitle{
-  font-size: 1em;
+  font-size: 4vb;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #6a6a6a;
   text-align: center;
@@ -335,7 +335,7 @@ h2{
 }
 
 #eduTitle{
-  font-size: 1em;
+  font-size: 3vb;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #6a6a6a;
   text-decoration: underline;
