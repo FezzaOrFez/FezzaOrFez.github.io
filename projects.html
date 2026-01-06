@@ -128,6 +128,30 @@ accuracy of the feedback through camera angle correction and point analysis meth
             </div>
         </button>
 
+        <button class="container" onclick="openProject('ev')" id="evContainer">
+            <div class="dropdown" id="evDropdown">
+                <p class="dropdownText">
+                    The EONET Viewpoint project is a website developed with React.js. The website fetches an API from 
+                    NASA's EONET (Earth Observatory Natural Event Tracker) API system. The events received from this call
+                    are placed onto an interactive globe as either polygon shapes or points. These can then be interacted with
+                    to move down to the information button that can take the user to another page presenting the respective details such as : <br>
+                    <br>Dates<br>
+                    Sources<br>
+                    Categories<br>
+                    Layers of Imagery<br><br>
+                    Each page also focuses on the area or point on the globe, and for multiple points, shows the path over the time of the event e.g.
+                    a storm's different recorded points with arcs and colour gradient to show the path from start to finish.
+                    <br><br> The system also has a filter to sort through dates, different categories of events, and a boundary box of events inside it.
+
+                </p>
+            </div>
+            <img src="images/eonetViewpoint.png" alt="EonetIndicator" class="image">
+            <div class="overlay" id="ciOverlay">
+                <div class="text">EONET Viewpoint</div>
+                <div class="text" style="font-size: 3vb; top: 25%;">CURRENT PROJECT</div>
+            </div>
+        </button>
+
         <p class="more" style="padding-bottom: 10%; padding-top: 5%;">More to Come...</p>
     </section>
     <script src="scripts.js"></script>
